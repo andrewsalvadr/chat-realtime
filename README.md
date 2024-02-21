@@ -1,3 +1,7 @@
+Note: If you encounter any errors, such as chat messages not loading in the 'Chatroom' component, 
+it may be due to exceeding the Firebase database daily quota during the testing phase of this app's creation. 
+The daily quota will refresh after 24 hours. Thank you.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

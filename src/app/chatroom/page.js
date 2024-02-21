@@ -130,7 +130,7 @@ const ChatRoom = () => {
                 <Typography fontSize={'14px'}>{msg.message}</Typography>
               </Box>
               <Typography variant="caption" sx={{ mt: 1, alignSelf: msg.uid === currentUser?.uid ? 'flex-end' : 'flex-start' }}>
-                {new Date(msg.createdAt?.seconds * 1000).toLocaleString()}
+              {new Date(msg.createdAt).toLocaleString()}
               </Typography>
             </Box>
           ))}

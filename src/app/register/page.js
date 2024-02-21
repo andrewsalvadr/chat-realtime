@@ -22,6 +22,7 @@ import {
     Snackbar,
     InputAdornment,
     IconButton,
+    Container,
   } from '@mui/material'; 
    import { useRouter } from "next/navigation";
 import { useTheme} from '@mui/material/styles';
@@ -92,7 +93,7 @@ const Register = () => {
     };
   
     return (
-      <>
+      <Container component="main" maxWidth="xs">
         <Snackbar
           anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
           open={open}
@@ -192,7 +193,7 @@ const Register = () => {
               </form>
             </Box>
           </Grid>
-      </>
+      </Container>
     );
   };
   

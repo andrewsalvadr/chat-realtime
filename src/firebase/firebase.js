@@ -10,13 +10,13 @@ import { getFirestore } from "firebase/firestore"
 import { getAuth, GoogleAuthProvider} from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAzMHN1Ng10Ht_9iWbiPLrVg2D29Iy4Juc",
-  authDomain: "chat-realtime-9be97.firebaseapp.com",
-  projectId: "chat-realtime-9be97",
-  storageBucket: "chat-realtime-9be97.appspot.com",
-  messagingSenderId: "408586760247",
-  appId: "1:408586760247:web:0ac99aecebd2d9e9694fb2",
-  measurementId: "G-DP5ZT8LH0S"
+  apiKey: "AIzaSyC8OypaaSyQuVOiJyBN1L2ay6PmIgDajVY",
+  authDomain: "realtime-chat-1d824.firebaseapp.com",
+  projectId: "realtime-chat-1d824",
+  storageBucket: "realtime-chat-1d824.appspot.com",
+  messagingSenderId: "468238488473",
+  appId: "1:468238488473:web:32ffad01c0ae47ed40f908",
+  measurementId: "G-Z3GGPM6V8C"
 };
 
 // // Initialize Firebase

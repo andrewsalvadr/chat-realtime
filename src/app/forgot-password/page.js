@@ -72,7 +72,7 @@ const ForgotPassword = () => {
             Forgot Password?
           </Typography>
           <Typography variant="body2" sx={{ textAlign: 'center', mb: 3 }}>
-            Enter your account email, and we'll send you a link to reset your password.
+            Enter your account email, and we&apos;ll send you a link to reset your password.
           </Typography>
           <Box component="form" noValidate onSubmit={onSubmit} sx={{ mt: 1 }}>
             <TextField
